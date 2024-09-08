@@ -212,7 +212,7 @@ struct G7SettingsView: View {
 
 
     private var doneButton: some View {
-        Button("Done", action: {
+        Button(NSLocalizedString("Done", comment: "Done button in settings view"), action: {
             self.didFinish()
         })
     }
