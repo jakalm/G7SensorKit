@@ -76,7 +76,7 @@ struct G7SettingsView: View {
                 }
             }
 
-            Section("Last Reading") {
+            Section(header: Text(LocalizedString("Last Reading", comment: "Section header for Last Reading"))) {
                 LabeledValueView(label: LocalizedString("Glucose", comment: "Field label"),
                                  value: viewModel.lastGlucoseString)
                 LabeledDateView(label: LocalizedString("Time", comment: "Field label"),
@@ -86,7 +86,7 @@ struct G7SettingsView: View {
                                  value: viewModel.lastGlucoseTrendString)
             }
 
-            Section("Bluetooth") {
+            Section(header: Text(LocalizedString("Bluetooth", comment: "Section header for Bluetooth"))) {
                 if let name = viewModel.sensorName {
                     HStack {
                         Text(LocalizedString("Name", comment: "title for g7 settings row showing BLE Name"))
@@ -118,7 +118,7 @@ struct G7SettingsView: View {
                 }
             }
 
-            Section("Configuration") {
+            Section(header: Text(LocalizedString("Configuration", comment: "Section header for Configuration"))) {
                 HStack {
                     Toggle(LocalizedString("Upload Readings", comment: "title for g7 config settings to upload readings"), isOn: $viewModel.uploadReadings)
                 }
