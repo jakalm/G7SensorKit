@@ -7,13 +7,13 @@
 /* No comment provided by engineer. */
 "Are you sure you want to delete this CGM?" = "Är du säker på att du vill radera denna CGM?";
 
-/* No comment provided by engineer. */
+/* Section header for Bluetooth */
 "Bluetooth" = "Bluetooth";
 
 /* Button text to cancel G7 setup */
 "Cancel" = "Avbryt";
 
-/* No comment provided by engineer. */
+/* Section header for Configuration */
 "Configuration" = "Konfiguration";
 
 /* title for g7 settings connection status when connected */
@@ -50,7 +50,7 @@
 /* title for g7 settings row showing sensor last connect time */
 "Last Connect" = "Senast ansluten";
 
-/* No comment provided by engineer. */
+/* Section header for Last Reading */
 "Last Reading" = "Senaste avläsningen";
 
 /* String displayed instead of a glucose value below the CGM range */
