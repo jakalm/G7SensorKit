@@ -69,22 +69,22 @@
 "Scanning" = "Söker";
 
 /* G7 Status highlight text for searching for sensor */
-"Searching for\nSensor" = "Söker efter\nSensor";
+"Searching for\nSensor" = "Söker efter\nsensor";
 
 /* G7 Progress bar label when searching for sensor */
 "Searching for sensor" = "Söker efter sensor";
 
 /* G7 Status highlight text for sensor expired */
-"Sensor\nExpired" = "Sensor\nUtgått";
+"Sensor\nExpired" = "Sensor\nutgått";
 
 /* G7 Status highlight text for sensor failed */
-"Sensor\nFailed" = "Sensor\nMisslyckades";
+"Sensor\nFailed" = "Sensor\nmisslyckades";
 
 /* G7 Status highlight text for sensor error */
-"Sensor\nIssue" = "Sensor\nFel";
+"Sensor\nIssue" = "Sensor\nfel";
 
 /* G7 Status highlight text for sensor warmup */
-"Sensor\nWarmup" = "Sensor\nUppvärmning";
+"Sensor\nWarmup" = "Sensor\nuppvärmning";
 
 /* title for g7 settings row showing sensor expiration time */
 "Sensor Expiration" = "Sensorns utgångsdatum";
