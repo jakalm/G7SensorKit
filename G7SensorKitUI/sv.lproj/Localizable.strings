@@ -62,6 +62,9 @@
 /* Opens the dexcom G7 app to allow users to manage active sensors */
 "Open Dexcom App" = "Öppna Dexcom-appen";
 
+/* Button title for scanning for a new sensor */
+"Scan for new sensor" = "Sök efter ny sensor";
+
 /* title for g7 settings connection status when scanning */
 "Scanning" = "Söker";
 
