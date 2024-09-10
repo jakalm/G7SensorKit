@@ -134,7 +134,7 @@ struct G7SettingsView: View {
 
             Section () {
                 if !self.viewModel.scanning {
-                    Button(NSLocalizedString("Scan for new sensor", comment: "Button title for scanning for a new sensor"), action: {
+                    Button(LocalizedString("Scan for new sensor", comment: "Button title for scanning for a new sensor"), action: {
                         self.viewModel.scanForNewSensor()
                     })
                 }
